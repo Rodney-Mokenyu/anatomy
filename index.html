@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>QR login</title>
     <!-- my stylesheet -->
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <img src="images/image-qr-code.png" alt="QR code">
-        <br>
-        <h3>Improve your front-end skils by building projects </h3>
-        <p>scan the code to visit front end mentor and take your coding skills to the next level</p>
-    </div>
+    <!-- Main content section marked as a landmark -->
+    <main>
+        <div class="container">
+        <!-- QR code image with a more descriptive alt text -->
+        
+        <img src="images/image-qr-code.png" alt="QR code for login" aria-label="QR code for login. Scan this to access the website.">
+        <div id="bob">
+        <!-- Adding a heading with an aria-level that gives context -->
+        <h3> Improve your front-end skills by building projects</h3>
+        
+        <!-- Paragraph describing what to do -->
+        <p>Scan the code to visit Frontend Mentor and take your coding skills to the next level.</p>
+        
+        </div>
+        </div>
+    </main>
 
 </body>
 </html>
